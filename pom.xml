@@ -37,7 +37,7 @@
         <developerConnection>scm:git:git@github.com:wrongtheory/sfg-pet-clinic.git
         </developerConnection>
         <url>scm:git:ssh://wrongtheory@github.com/wrongtheory/sfg-pet-clinic.git</url>
-        <tag>petclinic-0.0.1-SNAPSHOT</tag>
+        <tag>sfg-pet-clinic-0.0.1</tag>
     </scm>
     <build>
         <plugins>
@@ -50,7 +50,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>
-                        <goal>install mvn versions:set -DnewVersion=0.0.1-SNAPSHOT</goal>
+                        <goal>install mvn versions:set -DnewVersion=0.0.2-SNAPSHOT</goal>
                     </goals>
                 </configuration>
             </plugin>
