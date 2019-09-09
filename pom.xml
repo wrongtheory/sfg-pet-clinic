@@ -36,6 +36,8 @@
     <scm>
         <developerConnection>scm:git:git@github.com:wrongtheory/petclinic.git
         </developerConnection>
+        <url>scm:git:ssh://wrongtheory@github.com/wrongtheory/petclinic.git</url>
+        <tag>petclinic-0.0.2</tag>
     </scm>
     <build>
         <plugins>
