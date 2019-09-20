@@ -31,4 +31,5 @@ public class PetServiceMap extends AbstractMapService<Pet,Long> implements CrudS
     public void deleteById(Long id) {
         super.deleteById(id);
     }
+
 }
